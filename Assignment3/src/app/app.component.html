@@ -3,4 +3,9 @@
   <h1>Inside Root component</h1>
   <h2><app-comp1></app-comp1></h2>
   <h3><app-comp2></app-comp2></h3>
+  {{ fun() }}
+  {{ title }} : length is {{ title.length }} <br><br>
+  {{ title.toUpperCase() }} <br><br><br>
+
+  <input type="button" value="Button" (click)= "fun()">
 </div>
