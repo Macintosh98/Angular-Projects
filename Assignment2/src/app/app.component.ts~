@@ -3,8 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styles: ['.a{color:blue;}']
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  Name = 'Marvellous';
+  title = 'Assignment2';
 }
