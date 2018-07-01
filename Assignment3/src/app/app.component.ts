@@ -6,9 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = "Assignment3";
-  public fun()
+  title:string = "Assignment3";
+  fun()
   {
+    console.log("hiiii");
     this.title="hello world";
   }
 }
