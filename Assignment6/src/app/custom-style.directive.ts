@@ -5,6 +5,10 @@ import { Directive } from '@angular/core';
 })
 export class CustomStyleDirective {
 
-  constructor() { }
+  constructor() {
+    document.getElementById("b").style.color="yellow";
+    document.getElementById("b").style.fontStyle="italic"
+    document.getElementById("b").style.fontSize="4em"
+  }
 
 }
