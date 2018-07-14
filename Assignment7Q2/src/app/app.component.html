@@ -1,0 +1,32 @@
+<div align="center" style="background:#3EA1F0">
+
+  <div style="font-size:4em;color:white">Login Form</div><hr>
+
+  <div class="container" style="background:#E0E0D1">
+  <br><br><br><br>
+    <mat-form-field>
+    <input type="date"matInput placeholder="Start Date">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input type="date"matInput placeholder="End Date">
+  </mat-form-field>
+    <BR>
+    <mat-form-field>
+      <mat-select placeholder="Select Available City">
+        <mat-option>-- None --</mat-option>
+        <mat-option value="Mumbai">Mumbai</mat-option>
+        <mat-option value="Pune">Pune</mat-option>
+        <mat-option value="Mahabaleshvar">Mahabaleshvar</mat-option>
+        <mat-option value="Rajastan">Rajastan</mat-option>
+        <mat-option value="Odisa">Odisa</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <br><br><br><br>
+    <div class="button-row">
+      <button mat-raised-button (click)="save()">Submit</button>
+    </div>
+    <br><br><br><br><br><br><br><br>
+  <div>
+  <hr><br><hr>
+</div>
