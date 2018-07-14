@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
-  dataSource = ELEMENT_DATA;
+  public displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
+  public dataSource = ELEMENT_DATA;
 }
 
 export interface PeriodicElement {
